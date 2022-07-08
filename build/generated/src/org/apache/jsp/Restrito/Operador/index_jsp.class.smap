@@ -1,0 +1,17 @@
+SMAP
+index_jsp.java
+JSP
+*S JSP
+*F
++ 0 index.jsp
+Restrito/Operador/index.jsp
+*L
+1,7:46
+7,4:53
+11:57,3
+12,97:60
+109:157,3
+110,45:160
+155:205,3
+156,12:208
+*E

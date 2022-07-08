@@ -1,0 +1,45 @@
+#titilo{
+    display: block;
+    position: relative;
+    width: 70%;
+    top:0;
+}
+.relogio{
+    width: 300px;
+    height: 50px;
+    font-size: 220%;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    max-width: 100%;
+    float: right;
+    max-width: 50%;
+}
+.rc{
+    width: 35px;
+    height: 50px;
+    background-color: #999;
+    border: 2px #fff solid;
+    border-radius: 5px;
+    display: table-cell;
+}
+.esp{
+    display: table-cell;
+    padding: 1px;
+}
+.horas{
+    display: inline-block;
+}
+.minutos{
+    display: inline-block;
+}
+.segundos{
+    display: inline-block;
+}
+@media (max-width:535px)
+{
+    .titulo{
+        max-width: 50%;
+        width: 50%;
+    }
+}

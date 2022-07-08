@@ -1,0 +1,71 @@
+#conteudo{
+    padding-top: 110px;
+    max-width: 100%;
+    min-height: 900px;
+    width: 1920px;
+    margin: auto;
+}
+.container * {
+    box-sizing: border-box;
+}
+
+form .container {
+    padding: 16px;
+    background-color: white;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.container input[type=text], input[type=password], input[type=number], select {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+.labels{
+    color: #737373;
+}
+
+.container input[type=text]:focus, input[type=password]:focus, input[type=number]:focus, select:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.container option {
+    background-color: #fff;
+    outline: none;
+}
+
+.container hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.container .registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    text-align: center;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.container .registerbtn:hover {
+    opacity: 1;
+}
+
+.container .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+.dropdown-item a:link{
+    color: black;
+}
+.dropdown-item a:hover{
+    color: #B2E8D6;
+}

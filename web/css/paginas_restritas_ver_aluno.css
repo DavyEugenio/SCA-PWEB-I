@@ -1,0 +1,33 @@
+#conteudo{
+    color: white;
+    padding-top: 97px;
+    max-width: 100%;
+    min-height: 900px;
+    width: 1920px;
+    margin: auto;
+}
+#dados{
+    margin-left: 9.5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:#333;
+    background-color: white;
+    width: 350px;
+    border: 2px solid #000;
+}
+#dados h2{
+    color: black;
+}
+table th,td{
+    padding-left: 30px;
+    color: white;
+}
+@media (max-width:767px)
+{
+    #dados{
+        border: 0;
+        width: 100%;
+        margin: auto;
+        margin-bottom: -7px;
+    }
+}
